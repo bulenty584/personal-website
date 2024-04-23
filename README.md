@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# personal-website
-=======
-<<<<<<< HEAD
 # personal-website
 =======
 # Getting Started with Create React App
@@ -75,4 +71,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 >>>>>>> c4cf602 (Initial Commit, must remove template images, logos)
->>>>>>> 7031e4d (Initial commit local)
