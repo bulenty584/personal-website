@@ -4,24 +4,22 @@ import React from "react";
 import Experience from "./Experience/Experience";
 function App() {
   return (
-    <div className="App">
+    <div className="bg-green-light shadow-lg">
       <TopBar />
-      <h1 className="abt" id = "abtme">About Me</h1>
-      <div id="about">
+      <h2 className="flex justify-around w-16 m-0 flex-col" id="abtme">
+        About Me
+      </h2>
+      <div className="column" id="about">
         <div className="box" id="box1">
-          <p>
+          <p className="h-screen">
             I am a full stack developer with 3+ years of experience. I love
-            coding in general and love working on new projects.
-          </p>
-        </div>
-        <div className="box" id="box2">
-          <p>
-            I have worked on multiple projects and have experience in Python,
-            C++, C, JavaScript, React, Node.js, and MongoDB.
+            coding in general and love working on new projects. I have worked on
+            multiple projects and have experience in Python, C++, C, JavaScript,
+            React, Node.js, and MongoDB.
           </p>
         </div>
       </div>
-      <Experience/>
+      <Experience />
     </div>
   );
 }
