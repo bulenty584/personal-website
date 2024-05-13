@@ -5,31 +5,66 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   mode: "jit",
   theme: {
-    colors: {
-      blue: "#1fb6ff",
-      purple: "#7e5bef",
-      pink: "#ff49db",
-      orange: "#ff7849",
-      green: "#13ce66",
-      yellow: "#ffc82c",
-      "gray-dark": "#273444",
-      gray: "#8492a6",
-      "gray-light": "#d3dce6",
-      "green-light": "#c4c5ba",
-    },
-    fontFamily: {
-      sans: ["Graphik", "sans-serif"],
-      serif: ["Merriweather", "serif"],
-      montserrat: ["Montserrat", "sans-serif"],
-    },
     extend: {
-      spacing: {
-        "8xl": "96rem",
-        "9xl": "128rem",
+      lineHeight: {
+        11: "2.75rem",
+        l2: "3rem",
+        l3: "3.25rem",
+        l4: "3.5rem",
       },
-      borderRadius: {
-        "4xl": "2rem",
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
       },
+      colors: {
+        blue: "#1fb6ff",
+        purple: "#7e5bef",
+        pink: "#ff49db",
+        orange: "#ff7849",
+        green: "#13ce66",
+        yellow: "#ffc82c",
+        "gray-dark": "#273444",
+        gray: "#8492a6",
+        "gray-light": "#d3dce6",
+        "green-light": "#c4c5ba",
+      },
+      typography: ({ theme }) => ({
+        DEFAULT: {
+          css: {
+            a: {
+              color: theme("colors.primary.500"),
+              "&:hover": {
+                color: `${theme("colors.primary.600")}`,
+              },
+              code: { color: theme("colors.primary.400") },
+            },
+            "h1,h2": {
+              fontWeight: "700",
+              letterSpacing: theme("letterSpacing.tight"),
+            },
+            h3: {
+              fontWeight: "600",
+            },
+            code: {
+              color: theme("colors.indigo.500"),
+            },
+          },
+        },
+        invert: {
+          css: {
+            a: {
+              color: theme("colors.primary.500"),
+              "&:hover": {
+                color: `${theme("colors.primary.400")}`,
+              },
+              code: { color: theme("colors.primary.400") },
+            },
+            "h1,h2,h3,h4,h5,h6": {
+              color: theme("colors.gray.100"),
+            },
+          },
+        },
+      }),
     },
   },
+  plugins: [require("@tailwindcss/forms"), require("@tailwindcss/typography")],
 };
