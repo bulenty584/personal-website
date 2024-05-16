@@ -13,16 +13,13 @@ function TopBar() {
           <div className="menu">
             <ul className="nav-links">
               <li className="nav-item">
-                <a className="link" href ="#abtme" >
+                <a className="link" href="#abtme">
                   about
                 </a>
-                <a className="link" href ="#exp" >
+                <a className="link" href="#exp">
                   experience
                 </a>
-
-                <a className = "link">
-                  resume
-                </a>
+                <a className="link">resume</a>
               </li>
             </ul>
           </div>

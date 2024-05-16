@@ -1,6 +1,6 @@
 # personal-website
 
-This is a web portfolio for myself, created using React.js and Tailwind CSS. It is a work in progress, and will be updated as I learn more about web development.
+This is a web portfolio for myself, created using React.js and Tailwind CSS. It is a work in progress, and will be updated!
 
 ## Running the Website
 

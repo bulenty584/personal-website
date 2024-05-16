@@ -13,8 +13,11 @@ function Experience() {
           >
             Experience
           </h1>
+          <h2 className="text-2xl font-bold leading-9">
+            Tailwind Wealth Management, LLC
+          </h2>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            I have worked on multiple projects and have experience in Python,
+            Full Stack Developer
           </p>
         </div>
       </div>
