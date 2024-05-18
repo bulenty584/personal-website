@@ -26,6 +26,7 @@ module.exports = {
         gray: "#8492a6",
         "gray-light": "#d3dce6",
         "green-light": "#c4c5ba",
+        "dark-blue": "#000071",
       },
       typography: ({ theme }) => ({
         DEFAULT: {
