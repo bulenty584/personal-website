@@ -14,12 +14,14 @@ function TopBar() {
             <ul className="nav-links">
               <li className="nav-item">
                 <a className="link" href="#abtme">
-                  about
+                  About
                 </a>
                 <a className="link" href="#exp">
-                  experience
+                  Experience
                 </a>
-                <a className="link">resume</a>
+                <a className="link">
+                  Resume
+                </a>
               </li>
             </ul>
           </div>

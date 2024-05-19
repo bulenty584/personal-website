@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
 /*
 .App {
     text-align: center;

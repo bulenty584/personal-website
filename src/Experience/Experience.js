@@ -3,10 +3,10 @@ import React, { useState } from "react";
 function Experience() {
   return (
     <>
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
+      <div className="experience-section w-full flex flex-col items-center">
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
           <h1
-            className=" text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14"
+            className="text-center w-full font-extrabold tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-14"
             id="exp"
           >
             Experience

@@ -14,6 +14,9 @@ module.exports = {
       },
       fontFamily: {
         sans: ["Inter", "sans-serif"],
+        serif: ["Merriweather", "serif"],
+        mono: ["Fira Code", "monospace"],
+        
       },
       colors: {
         blue: "#1fb6ff",
