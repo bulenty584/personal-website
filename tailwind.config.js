@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       lineHeight: {
-        11: "2.75rem",
+        l1: "2.75rem",
         l2: "3rem",
         l3: "3.25rem",
         l4: "3.5rem",
