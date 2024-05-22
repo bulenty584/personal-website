@@ -19,6 +19,9 @@ function TopBar() {
                 <a className="link" href="#exp">
                   Experience
                 </a>
+                <a className="link" href="#skills">
+                  Skills
+                </a>
                 <a href="/BYResume24.pdf" target="_blank" rel="noopener noreferrer">
                   Resume
                 </a>

@@ -39,8 +39,8 @@ function App() {
           </div>
         </div>
         <Experience />
-        <Skills />
         </div>
+        <Skills />
       </div>
     </>
   );
