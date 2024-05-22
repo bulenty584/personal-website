@@ -2,6 +2,10 @@ import "./App.css";
 import TopBar from "./TopBar/TopBar";
 import React from "react";
 import Experience from "./Experience/Experience";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { SiDevpost } from "react-icons/si";
+import Skills from "./Skills/Skills";
 function App() {
   return (
     <>
@@ -15,6 +19,10 @@ function App() {
           <h2 className="flex pb-10 font-semibold tracking-tight sm:text-2xl sm:leading-10 md:text-3xl md:leading-14 text-warm_white">
             Adept and Passionate Software Developer
           </h2>
+          <div className="flex flex-row space-x-4">
+          <FaGithub className="link text-5xl text-warm_white hover:text-white-400 transition-transform transform-gpu hover:scale-105 transition-duration-300 shadow-md" onClick={() => window.open("https://github.com/bulenty584")}/>
+          <FaLinkedin className="link text-5xl text-warm_white hover:text-white-400 transition-transform transform-gpu hover:scale-105 transition-duration-300 shadow-md" onClick={() => window.open("https://www.linkedin.com/in/bulent-yesilyurt-40614422b/")}/>
+          </div>
         <h2
           className="flex pt-28 pb-10 font-extrabold tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-14 text-warm_white"
           id="abtme"
@@ -31,6 +39,7 @@ function App() {
           </div>
         </div>
         <Experience />
+        <Skills />
         </div>
       </div>
     </>
