@@ -7,7 +7,8 @@ AOS.init();
 function Experience() {
   return (
     <>
-      <div className="flex items-center justify-center mt-12" id="exp">
+    <div id="exp">
+      <div className="flex items-center justify-center mt-12">
         <div className="space-y-2 pb-8 pt-6 md:space-y-5"
         data-aos="fade-up"
         data-aos-duration="1000"
@@ -52,6 +53,8 @@ function Experience() {
           </div>
         </div>
       </div>
+    </div>
+
     </>
   );
 }

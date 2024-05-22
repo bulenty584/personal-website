@@ -23,8 +23,10 @@ function App() {
           <FaGithub className="link text-5xl text-warm_white hover:text-white-400 transition-transform transform-gpu hover:scale-105 transition-duration-300 shadow-md" onClick={() => window.open("https://github.com/bulenty584")}/>
           <FaLinkedin className="link text-5xl text-warm_white hover:text-white-400 transition-transform transform-gpu hover:scale-105 transition-duration-300 shadow-md" onClick={() => window.open("https://www.linkedin.com/in/bulent-yesilyurt-40614422b/")}/>
           </div>
+          <hr className="mt-10 w-3/6 border-t-2 border-warm_white my-4" />
         <h2
-          className="flex pt-28 pb-10 font-extrabold tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-14 text-warm_white"
+    
+          className="flex pt-10 pb-10 font-extrabold tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-14 text-warm_white"
           id="abtme"
         >
           About Me
