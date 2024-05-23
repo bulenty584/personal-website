@@ -45,10 +45,10 @@ nav .nav-bar {
     height: 100%;
     width: 100%;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0px;
+    margin-left: 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     border-radius: 4%;
     padding-bottom: 10px;
 }
@@ -69,7 +69,7 @@ body.dark nav {
 nav .nav-bar .menu {
     display: flex;
     justify-content: center;
-    padding-left: 400px;
+    padding-left: 500px;
 }
 
 nav .nav-bar .sidebarOpen {
@@ -83,6 +83,7 @@ nav .nav-bar .logoo {
     display: flex;
     justify-content: flex-start;
     padding-top: 10px;
+    margin-right: 150px;
 }
 
 nav .nav-bar .logoo a {

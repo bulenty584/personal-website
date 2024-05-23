@@ -6,6 +6,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { SiDevpost } from "react-icons/si";
 import Skills from "./Skills/Skills";
+import Projects  from "./Projects/Projects";
 function App() {
   return (
     <>
@@ -43,6 +44,7 @@ function App() {
         <Experience />
         </div>
         <Skills />
+        <Projects />
       </div>
     </>
   );
