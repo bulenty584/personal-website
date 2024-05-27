@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import "./TopBar.css";
-import logo from '../Assets/Logo.png';
+import logo from '../../Assets/Logo.png';
 
 function TopBar() {
   return (

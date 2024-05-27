@@ -1,7 +1,14 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import "./Projects.css";
 
 function Projects(){
+    const [clicked, setClicked] = useState(false);
+
+    const handleOnClick = () => {
+        setClicked(true);
+    }
+
+    
     return(
         <>
         <div id="projects">
@@ -9,11 +16,6 @@ function Projects(){
                 <h1 className="text-center w-full font-extrabold tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-14 text-warm_white">
                     Projects
                 </h1>
-            
-
-            
-
-
             </div>
         </div>
         </>

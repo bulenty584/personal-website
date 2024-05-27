@@ -1,6 +1,16 @@
 import React from "react";
 import "./Skills.css";
 
+const ret_html = (props) => {
+    let id = props.id;
+    return (
+    <div class="mx-auto box-border w-5/6 bg-gray rounded-lg border-4 border-white">
+                    <div class="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "100%"}}> {id} </div>
+                </div>
+    )
+}
+
+
 function Skills() {
     return (
         <>

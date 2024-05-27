@@ -1,12 +1,13 @@
 import "./App.css";
-import TopBar from "./TopBar/TopBar";
+import TopBar from "./Components/TopBar/TopBar";
 import React from "react";
-import Experience from "./Experience/Experience";
+import Experience from "./Components/Experience/Experience";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { SiDevpost } from "react-icons/si";
-import Skills from "./Skills/Skills";
-import Projects  from "./Projects/Projects";
+import Skills from "./Components/Skills/Skills";
+import Projects  from "./Components/Projects/Projects";
+import ProjectCard from "./Components/ProjectCard/ProjectCard"
 function App() {
   return (
     <>
@@ -45,6 +46,7 @@ function App() {
         </div>
         <Skills />
         <Projects />
+        <ProjectCard />
       </div>
     </>
   );
