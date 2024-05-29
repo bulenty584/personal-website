@@ -3,6 +3,7 @@ import './ProjectCard.css';
 import bruin_ride from '../../Assets/bruin_ride.png';
 
 
+
 function ProjectCard(props){
     const [clicked, setClicked] = useState(false);
     const [animation, setAnimation] = useState(' ');

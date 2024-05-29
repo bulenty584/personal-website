@@ -1,6 +1,9 @@
 import React, {useState, useEffect} from "react";
 import "./Projects.css";
 import ProjectCard from "../ProjectCard/ProjectCard";
+import AOS from 'aos';
+
+AOS.init();
 
 function Projects(){
     const [clicked, setClicked] = useState(false);
@@ -13,7 +16,10 @@ function Projects(){
     return(
         <>
         <div id="projects">
-            <div className=" items-center justify-center mt-12">
+            <div className=" items-center justify-center mt-12"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            >
                 <h1 className="text-center w-full font-extrabold tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-14 text-warm_white">
                     Projects
                 </h1>
