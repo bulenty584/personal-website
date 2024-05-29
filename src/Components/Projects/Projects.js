@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import "./Projects.css";
+import ProjectCard from "../ProjectCard/ProjectCard";
 
 function Projects(){
     const [clicked, setClicked] = useState(false);
@@ -12,10 +13,11 @@ function Projects(){
     return(
         <>
         <div id="projects">
-            <div className="flex items-center justify-center mt-12">
+            <div className=" items-center justify-center mt-12">
                 <h1 className="text-center w-full font-extrabold tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-14 text-warm_white">
                     Projects
                 </h1>
+                <ProjectCard title="Bruin Ride" description="Bruin Ride is a ride-sharing platform that connects UCLA students with drivers who are willing to give rides to students. The platform is designed to be a safe and convenient way for students to get around campus and the surrounding area."/>
             </div>
         </div>
         </>

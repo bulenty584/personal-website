@@ -18,6 +18,22 @@ module.exports = {
         mono: ["Fira Code", "monospace"],
         
       },
+      animation: {
+        fadeOut: 'fadeOut 1s ease-in-out',
+        fadeIn: 'fadeIn 1s ease-in-out',
+      },
+
+      // that is actual animation
+      keyframes: theme => ({
+        fadeOut: {
+          '0%': { backgroundColor: theme('colors.black') },
+          '100%': { backgroundColor: theme('colors.transparent') },
+        },
+        fadeIn: {
+          '0%': { backgroundColor: theme('colors.transparent') },
+          '100%': { backgroundColor: theme('colors.black') },
+        },
+      }),
       colors: {
         blue: "#1fb6ff",
         purple: "#7e5bef",
@@ -31,6 +47,7 @@ module.exports = {
         "green-light": "#c4c5ba",
         "dark-blue": "#000071",
         "warm_white": "#fef8ea",
+        transparent : colors.transparent,
       },
       typography: ({ theme }) => ({
         DEFAULT: {
