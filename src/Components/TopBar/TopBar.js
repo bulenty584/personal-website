@@ -17,14 +17,14 @@ function TopBar() {
           <div className="menu">
             <ul className="nav-links">
               <li className="nav-item">
-                <a className="link" href="#abtme">
-                  About
-                </a>
                 <a className="link" href="#exp">
                   Experience
                 </a>
                 <a className="link" href="#skills">
                   Skills
+                </a>
+                <a className="link" href="#projects">
+                  Projects
                 </a>
                 <a href="/BYResume24.pdf" target="_blank" rel="noopener noreferrer">
                   Resume

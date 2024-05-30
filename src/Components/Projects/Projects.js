@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import "./Projects.css";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import AOS from 'aos';
@@ -6,11 +6,6 @@ import AOS from 'aos';
 AOS.init();
 
 function Projects(){
-    const [clicked, setClicked] = useState(false);
-
-    const handleOnClick = () => {
-        setClicked(true);
-    }
 
     
     return(
@@ -24,13 +19,13 @@ function Projects(){
                     Projects
                 </h1>
                 <h2 className="pt-10 text-center w-full font-extrabold tracking-tight sm:text-1xl sm:leading-10 md:text-1xl md:leading-14 text-warm_white">
-                    <i>
+                    <i className="text-center">
                     *Click on any Image to learn more about the project!
                     </i>
                 </h2>
                 <ProjectCard title="Bruin Ride" 
                 description="Bruin Ride is a ride-sharing platform that connects UCLA students with drivers who are willing to give rides to students. 
-                The platform is designed to be a safe and convenient way for students to get around campus and the surrounding area."
+                The app is built with React, Node, Express, and Firebase on the backend. The rideshare algorithm is implemented on the cloud using Firebase's Firestore functionality."
                 />
             </div>
         </div>
