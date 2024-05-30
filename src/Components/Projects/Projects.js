@@ -23,7 +23,15 @@ function Projects(){
                 <h1 className="text-center w-full font-extrabold tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-14 text-warm_white">
                     Projects
                 </h1>
-                <ProjectCard title="Bruin Ride" description="Bruin Ride is a ride-sharing platform that connects UCLA students with drivers who are willing to give rides to students. The platform is designed to be a safe and convenient way for students to get around campus and the surrounding area."/>
+                <h2 className="pt-10 text-center w-full font-extrabold tracking-tight sm:text-1xl sm:leading-10 md:text-1xl md:leading-14 text-warm_white">
+                    <i>
+                    *Click on any Image to learn more about the project!
+                    </i>
+                </h2>
+                <ProjectCard title="Bruin Ride" 
+                description="Bruin Ride is a ride-sharing platform that connects UCLA students with drivers who are willing to give rides to students. 
+                The platform is designed to be a safe and convenient way for students to get around campus and the surrounding area."
+                />
             </div>
         </div>
         </>

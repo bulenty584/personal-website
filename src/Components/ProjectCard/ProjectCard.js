@@ -18,7 +18,7 @@ function ProjectCard(props){
 
     return (
         <>
-        <div className="mt-10 w-full flex flex-col items-center justify-center">
+        <div className="w-full flex flex-col items-center justify-center">
             <div className="space-y-2 pb-8 pt-6 md:space-y-5">
                     {clicked ? (
                         <div className="flex flex-col items-center justify-center">

@@ -12,7 +12,6 @@ function App() {
   return (
     <>
       <div className="flex-col">
-        <a href = "/BYResume.pdf" target="_blank">Resume</a>
         <TopBar />
         <div className="main-content w-full flex flex-col items-center">
           <h1 className="flex pt-28 pb-10 font-medium tracking-tight sm:text-5xl sm:leading-10 md:text-6xl md:leading-14 text-warm_white">
