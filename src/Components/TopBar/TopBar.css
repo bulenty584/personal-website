@@ -69,7 +69,8 @@ body.dark nav {
 nav .nav-bar .menu {
     display: flex;
     justify-content: center;
-    padding-left: 500px;
+    padding-left: 600px;
+
 }
 
 nav .nav-bar .sidebarOpen {

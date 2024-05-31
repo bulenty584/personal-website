@@ -20,8 +20,7 @@ function Experience() {
           </h1>
           <div className = "flex-row space-x-20 flex justify-center">
           <div className="mt-10 p-4 bg-black rounded-lg border-4 
-          border-black shadow-[8px_8px_0px_grey] transition-transform transform-gpu 
-          hover:scale-105 transition-duration-300 w-1/4"
+          border-black shadow-[8px_8px_0px_grey] w-1/4"
           >
           <h2 className="mt-8 mb-8 text-center text-2xl font-bold l3 text-warm_white">
             Software Consultant at Kommu Inc.

@@ -36,7 +36,7 @@ function ProjectCard(props){
                         <img src={bruin_ride} alt="Bruin Ride" className="w-full h-96 object-cover rounded-lg animate-fadeIn"/>
                         </div>
                     )}
-                    <p className="pt-10 text-center text-2xl font-semibold text-warm_white">{title}</p>
+                    <p className="pt-3 text-center text-2xl font-semibold text-warm_white">{title}</p>
                 </div>
             </div>
         </>
