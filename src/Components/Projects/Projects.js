@@ -23,9 +23,13 @@ function Projects(){
                     *Click on any Image to learn more about the project!
                     </i>
                 </h2>
-                <ProjectCard title="Bruin Ride" 
+                <ProjectCard title="BruinRide" 
                 description="Bruin Ride is a ride-sharing platform that connects UCLA students with drivers who are willing to give rides to students. 
                 The app is built with React, Node, Express, and Firebase on the backend. The rideshare algorithm is implemented on the cloud using Firebase's Firestore functionality."
+                />
+
+                <ProjectCard title="PnetPhlix"
+                description="PnetPhlix is a movie recommender written in C++. The program uses a custom Tree data structure and iterator class to store the movies and their corresponding actors."
                 />
             </div>
         </div>
