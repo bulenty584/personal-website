@@ -4,6 +4,28 @@ import "./TopBar.css";
 import logo from '../../Assets/Logo.png';
 
 function TopBar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  }
+
+  const changeTopBar = () => {
+    let width = window.innerWidth;
+    if(width < 1110){
+      document.querySelector('.menu').addEventListener('click', toggleMenu);
+      document.querySelector('.nav-links').classList.add('hidden');
+      setIsMenuOpen(true);
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('resize', changeTopBar);
+    return () => {
+      window.removeEventListener('resize', changeTopBar);
+    }
+  }, []);
+
   return (
     <header className="navHeader">
       <nav>
