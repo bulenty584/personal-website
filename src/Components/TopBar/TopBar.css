@@ -24,9 +24,9 @@ nav {
     z-index: 10000;
     opacity: 1;
     width: 100%;
-    
+
     background-color: #242526;
-    
+
     /*background: linear-gradient(
         to bottom,
         rgba(255, 255, 255, 0) 70%,
@@ -73,7 +73,6 @@ nav .nav-bar .menu {
     padding: 0;
     margin: auto;
     width: 20%;
-
 }
 
 nav .nav-bar .sidebarOpen {
@@ -125,7 +124,6 @@ nav .nav-bar .logoo a:hover {
     padding: 10px;
     white-space: nowrap;
 }
-
 
 .nav-item-2 {
     border: 2px solid #000;

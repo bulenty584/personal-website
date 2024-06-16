@@ -31,6 +31,10 @@ function Projects(){
                 <ProjectCard title="PnetPhlix"
                 description="PnetPhlix is a movie recommender written in C++. The program uses a custom Tree data structure and iterator class to store the movies and their corresponding actors."
                 />
+
+                <ProjectCard title="PeachParty"
+                description="PeachParty is a Mario Party spinoff written in C++. The game allows two players to move along 1 of 8 boards and interact with enemies."
+                />
             </div>
         </div>
         </>
