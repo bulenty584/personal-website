@@ -4,52 +4,31 @@ import "./TopBar.css";
 import logo from "../../Assets/Logo.png";
 
 function TopBar() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
-  const changeTopBar = () => {
-    let width = window.innerWidth;
-    if (width < 1110) {
-      document.querySelector(".menu").addEventListener("click", toggleMenu);
-      document.querySelector(".nav-links").classList.add("hidden");
-      setIsMenuOpen(true);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener("resize", changeTopBar);
-    return () => {
-      window.removeEventListener("resize", changeTopBar);
-    };
-  }, []);
 
   return (
+
     <header className="navHeader">
       <nav>
-        <div className="nav-bar">
-          <div className="w-1/12 object-fill scale-125">
-            <img src={logo} alt="logo" className="object-fill" />
-          </div>
-          <span className="logoo navLogo">
+        <div className="bg-black text-warm_white flex items-center w-full h-1/12 box-border fixed justify-between z-10 top-0">
+          <span className=" text-warm_white text-xl font-semibold font-sans pl-10 float-left h-1/12 box-border flex items-center justify-center">
             <NavLink to="/">Bulent Yesilyurt</NavLink>
+            <img src={logo} alt="logo"/>
           </span>
           <div className="menu">
-            <ul className="nav-links">
-              <li className="nav-item">
-                <a className="link" href="#exp">
+            <ul className="">
+              <li className="font-semibold font-sans">
+                <a className="mr-10 cool-underline" href="#exp">
                   Experience
                 </a>
-                <a className="link" href="#skills">
+                <a className="mr-10 cool-underline" href="#skills">
                   Skills
                 </a>
-                <a className="link" href="#projects">
+                <a className="mr-10 cool-underline" href="#projects">
                   Projects
                 </a>
                 <a
-                  href="/BYResume24.pdf"
+                  className="mr-10 cool-underline"
+                  href="/BYResume2025.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

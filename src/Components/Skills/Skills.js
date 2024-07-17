@@ -17,29 +17,29 @@ function Skills() {
                 <h2 className="pt-6 pb-6  text-center w-full font-semibold tracking-tight sm:text-3xl sm:leading-10 md:text-4xl md:leading-14 text-warm_white">
                     Languages
                 </h2>
-                <div class="mx-auto box-border w-5/6 bg-gray rounded-lg border-4 border-white">
-                    <div class="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "100%"}}> C++ </div>
+                <div className="mx-auto box-border w-5/6 bg-gray rounded-lg border-4 border-white">
+                    <div className="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "100%"}}> C++ </div>
                 </div>
-                <div class="mx-auto box-border w-5/6 bg-gray rounded-lg border-4 border-white">
-                    <div class="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "80%"}}> Python </div>
+                <div className="mx-auto box-border w-5/6 bg-gray rounded-lg border-4 border-white">
+                    <div className="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "80%"}}> Python </div>
                 </div>
-                <div class="mx-auto box-border w-5/6 bg-gray rounded-lg border-4 border-white">
-                    <div class="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "80%"}}> JavaScript </div>
+                <div className="mx-auto box-border w-5/6 bg-gray rounded-lg border-4 border-white">
+                    <div className="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "80%"}}> JavaScript </div>
                 </div>
-                <div class="mx-auto box-border w-5/6 bg-gray rounded-lg border-4 border-white">
-                    <div class="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "100%"}}> HTML + CSS </div>
+                <div className="mx-auto box-border w-5/6 bg-gray rounded-lg border-4 border-white">
+                    <div className="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "100%"}}> HTML + CSS </div>
                 </div>
-                <div class="mx-auto box-border w-5/6 bg-gray rounded-lg border-4 border-white">
-                    <div class="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "90%"}}> Swift </div>
+                <div className="mx-auto box-border w-5/6 bg-gray rounded-lg border-4 border-white">
+                    <div className="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "90%"}}> Swift </div>
                 </div>
-                <div class="mx-auto box-border w-5/6 bg-gray rounded-lg border-4 border-white">
-                    <div class="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "60%"}}> C </div>
+                <div className="mx-auto box-border w-5/6 bg-gray rounded-lg border-4 border-white">
+                    <div className="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "60%"}}> C </div>
                 </div>
-                <div class="mx-auto box-border w-5/6 bg-gray rounded-lg border-4 border-white">
-                    <div class="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "60%"}}> Lisp </div>
+                <div className="mx-auto box-border w-5/6 bg-gray rounded-lg border-4 border-white">
+                    <div className="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "60%"}}> Lisp </div>
                 </div>
-                <div class="mx-auto box-border w-5/6 bg-gray rounded-lg border-4 border-white">
-                    <div class="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "40%"}}> SQL </div>
+                <div className="mx-auto box-border w-5/6 bg-gray rounded-lg border-4 border-white">
+                    <div className="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "40%"}}> SQL </div>
                 </div>
 
                 <h2 className="pt-10 pb-6  text-center w-full font-semibold tracking-tight sm:text-3xl sm:leading-10 md:text-4xl md:leading-14 text-warm_white">
@@ -54,11 +54,11 @@ function Skills() {
                 <div className="mx-auto box-border w-5/6 bg-gray rounded-lg border-4 border-white">
                     <div className="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "80%"}}> Emacs </div>
                 </div>
-                <div class="mx-auto box-border w-5/6 bg-gray rounded-lg border-4 border-white">
-                    <div class="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "80%"}}>  Linux </div>
+                <div className="mx-auto box-border w-5/6 bg-gray rounded-lg border-4 border-white">
+                    <div className="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "80%"}}>  Linux </div>
                 </div>
-                <div class="mx-auto box-border w-5/6 bg-gray rounded-lg border-4 border-white">
-                    <div class="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "80%"}}>  GDB/Valgrind </div>
+                <div className="mx-auto box-border w-5/6 bg-gray rounded-lg border-4 border-white">
+                    <div className="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "80%"}}>  GDB/Valgrind </div>
                 </div>
             </div>
         </div>

@@ -88,5 +88,34 @@ module.exports = {
       }),
     },
   },
-  plugins: [require("@tailwindcss/forms"), require("@tailwindcss/typography")],
+  plugins: [
+    require("@tailwindcss/forms"), require("@tailwindcss/typography"),
+    function ({ addUtilities }) {
+      const newUtilities = {
+        '.cool-underline': {
+          position: 'relative',
+          display: 'inline-block',
+          textDecoration: 'none',
+        },
+        '.cool-underline::after': {
+          content: '""',
+          position: 'absolute',
+          width: '100%',
+          height: '2px',
+          bottom: '0',
+          left: '0',
+          backgroundColor: 'white',
+          transform: 'scaleX(0)',
+          transformOrigin: 'bottom right',
+          transition: 'transform 0.4s ease-in-out',
+        },
+        '.cool-underline:hover::after': {
+          transform: 'scaleX(1)',
+          transformOrigin: 'bottom left',
+        },
+      };
+
+      addUtilities(newUtilities, ['responsive', 'hover']);
+    },
+  ],
 };
