@@ -14,9 +14,9 @@ function TopBar() {
     <header className="navHeader">
       <nav>
         <div className="bg-black text-warm_white flex items-center w-full h-16 box-border fixed justify-between z-10 top-0">
-          <span className="text-warm_white text-xl font-semibold font-sans flex items-center">
+          <span className="pl-10 text-warm_white text-xl font-semibold font-sans flex items-center">
             <NavLink to="/">Bulent Yesilyurt</NavLink>
-            <img src={logo} alt="logo" className="ml-2" />
+            <img src={logo} alt="logo"/>
           </span>
           <div className="hidden md:flex space-x-4">
             <ul className="flex space-x-4">
