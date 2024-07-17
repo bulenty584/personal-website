@@ -15,7 +15,7 @@ function Projects(){
             data-aos="fade-up"
             data-aos-duration="1000"
             >
-                <h1 className="text-center w-full font-extrabold tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-14 text-warm_white">
+                <h1 className="text-center w-full font-extrabold tracking-tight text-4xl sm:leading-10 md:text-5xl md:leading-14 text-warm_white">
                     Projects
                 </h1>
                 <h2 className="pt-10 text-center w-full font-extrabold tracking-tight sm:text-1xl sm:leading-10 md:text-1xl md:leading-14 text-warm_white">

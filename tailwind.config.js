@@ -107,7 +107,7 @@ module.exports = {
           backgroundColor: 'white',
           transform: 'scaleX(0)',
           transformOrigin: 'bottom right',
-          transition: 'transform 0.4s ease-in-out',
+          transition: 'transform 0.3s ease-in-out',
         },
         '.cool-underline:hover::after': {
           transform: 'scaleX(1)',

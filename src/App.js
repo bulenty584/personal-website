@@ -7,17 +7,16 @@ import { FaLinkedin } from "react-icons/fa";
 import { SiDevpost } from "react-icons/si";
 import Skills from "./Components/Skills/Skills";
 import Projects  from "./Components/Projects/Projects";
-import ProjectCard from "./Components/ProjectCard/ProjectCard"
 function App() {
   return (
     <>
       <div className="flex-col">
         <TopBar />
         <div className="main-content w-full flex flex-col items-center">
-          <h1 className="flex pt-28 pb-10 font-bold tracking-tight sm:text-7xl md:text-7xl md:leading-14 text-warm_white" id="h1">
+          <h1 className="flex pt-28 pb-10 font-bold tracking-tight text-6xl md:text-7xl md:leading-14 text-warm_white" id="h1">
             Bulent Yesilyurt
           </h1>
-          <h2 className="flex pb-10 font-semibold tracking-tight sm:text-2xl sm:leading-10 md:text-3xl md:leading-14 text-warm_white" id="h2_descr">
+          <h2 className="flex pb-10 font-semibold tracking-tight text-3xl sm:leading-10 md:text-3xl md:leading-14 text-warm_white" id="h2_descr">
             Adept and Passionate Software Developer
           </h2>
           <div className="flex flex-row space-x-4" id="symbols">
@@ -27,7 +26,7 @@ function App() {
           <hr className="mt-10 w-3/6 border-t-2 border-warm_white my-4" />
         <h2
   
-          className="flex pt-10 pb-10 font-extrabold tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-14 text-warm_white"
+          className="flex pt-10 pb-10 font-extrabold tracking-tight text-4xl sm:leading-10 md:text-5xl md:leading-14 text-warm_white"
           id="abtme"
         >
           About Me

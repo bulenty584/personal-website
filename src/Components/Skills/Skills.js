@@ -11,10 +11,10 @@ function Skills() {
                 data-aos="fade-up"
                 data-aos-duration="1000"
             >
-                <h1 className="text-center w-full font-extrabold tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-14 text-warm_white">
+                <h1 className="text-center w-full font-extrabold tracking-tight text-4xl sm:leading-10 md:text-5xl md:leading-14 text-warm_white">
                     Skills
                 </h1>
-                <h2 className="pt-6 pb-6  text-center w-full font-semibold tracking-tight sm:text-3xl sm:leading-10 md:text-4xl md:leading-14 text-warm_white">
+                <h2 className="pt-6 pb-6  text-center w-full font-semibold tracking-tight text-4xl sm:leading-10 md:text-4xl md:leading-14 text-warm_white">
                     Languages
                 </h2>
                 <div className="mx-auto box-border w-5/6 bg-gray rounded-lg border-4 border-white">
