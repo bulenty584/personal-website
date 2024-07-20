@@ -10,7 +10,7 @@ import Projects  from "./Components/Projects/Projects";
 function App() {
   return (
     <>
-      <div className="flex-col">
+      <div className="flex-col" id="top">
         <TopBar />
         <div className="main-content w-full flex flex-col items-center">
           <h1 className="flex pt-28 pb-10 font-bold tracking-tight text-6xl md:text-7xl md:leading-14 text-warm_white" id="h1">

@@ -13,9 +13,9 @@ function TopBar() {
   return (
     <header className="navHeader">
       <nav>
-        <div className="bg-black text-warm_white flex items-center w-full h-16 box-border fixed justify-between z-10 top-0">
+        <div className="bg-black text-warm_white flex items-center w-full h-16 box-border fixed justify-between z-20 top-0">
           <span className="pl-10 text-warm_white text-xl font-semibold font-sans flex items-center">
-            <NavLink to="/">Bulent Yesilyurt</NavLink>
+            <a href="#top">Bulent Yesilyurt</a>
             <img src={logo} alt="logo"/>
           </span>
           <div className="hidden md:flex space-x-4">
@@ -42,37 +42,27 @@ function TopBar() {
             </ul>
           </div>
           <div className="md:hidden pr-10">
-            <div id="hamburger" className="hamburger" onClick={toggleMenu}>
-            {menuOpen ? (
-                <span class="material-symbols-outlined">
-                close
-                </span>
-              ) : (
-                <div className="hamburger">
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                </div>
-              )}
+            <div id="hamburger" className={`hamburger ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
+              <div></div>
               <div></div>
               <div></div>
             </div>
           </div>
         </div>
-        <div id="mobile-menu" className={`md:hidden fixed text-warm_white w-full bg-black font-sans font-semibold pt-14 ${menuOpen ? '' : 'hidden'}`}>
+        <div id="mobile-menu" className={`md:hidden fixed text-warm_white w-full bg-black font-sans font-semibold pt-14 z-10 ${menuOpen ? '' : 'hidden'}`}>
           <div className={'flex flex-col items-center justify-center' }>
-            <a href="#exp" className=" text-sm py-1 cool-underline">
+            <a href="#exp" className=" text-lg py-2 cool-underline">
               Experience
             </a>
-            <a href="#skills" className=" px-4 py-1 text-sm cool-underline">
+            <a href="#skills" className=" px-4 py-2 text-lg cool-underline">
               Skills
             </a>
-            <a href="#projects" className=" px-4 py-1 text-sm cool-underline">
+            <a href="#projects" className=" px-4 py-2 text-lg cool-underline">
               Projects
             </a>
             <a
               href="/BYResume2025.pdf"
-              className="px-4 py-1 text-sm cool-underline"
+              className="px-4 py-2 text-lg cool-underline"
             >
               Resume
             </a>
