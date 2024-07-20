@@ -23,7 +23,7 @@ function Projects(){
                     </i>
                 </h2>
                 <ProjectCard title="BruinRide" 
-                description="Bruin Ride is a ride-sharing platform that connects allows UCLA students to form rideshare groups! The app is built with React on the frontend, Node, Express, and Firebase on the backend. The rideshare algorithm is implemented on the cloud using Firebase's Firestore functionality."
+                description="Bruin Ride is a ride-sharing platform that allows UCLA students to form rideshare groups! The app is built with React on the frontend, Node, Express, and Firebase on the backend. The rideshare algorithm is implemented on the cloud using Firebase's Firestore functionality."
                 githubLink="https://github.com/bulenty584/BruinRide"
                 />
 
