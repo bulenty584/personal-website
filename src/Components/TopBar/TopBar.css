@@ -28,3 +28,15 @@
   transform: rotate(-45deg);
   transform-origin: 0% 100%;
 }
+
+#mobile-menu {
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  transform: translateY(-100%);
+  opacity: 10;
+}
+
+#mobile-menu.open {
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  transform: translateY(0);
+  opacity: 10;
+}

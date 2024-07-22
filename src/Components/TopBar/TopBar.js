@@ -13,7 +13,7 @@ function TopBar() {
   return (
     <header className="navHeader">
       <nav>
-        <div className="bg-black text-warm_white flex items-center w-full h-16 box-border fixed justify-between z-20 top-0">
+        <div className="bg-black text-warm_white flex items-center w-full h-1/12 box-border fixed justify-between z-20 top-0">
           <span className="pl-10 text-warm_white text-xl font-semibold font-sans flex items-center">
             <a href="#top">Bulent Yesilyurt</a>
             <img src={logo} alt="logo"/>
@@ -49,7 +49,7 @@ function TopBar() {
             </div>
           </div>
         </div>
-        <div id="mobile-menu" className={`md:hidden fixed text-warm_white w-full bg-black font-sans font-semibold pt-14 z-10 ${menuOpen ? '' : 'hidden'}`}>
+        <div id="mobile-menu" className={`md:hidden fixed text-warm_white w-full bg-black p-.5 border-white font-sans font-semibold pt-14 z-10 ${menuOpen ? 'open' : ''}`}>
           <div className={'flex flex-col items-center justify-center' }>
             <a href="#exp" className=" text-lg py-2 cool-underline">
               Experience

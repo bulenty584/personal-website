@@ -36,12 +36,14 @@ function ProjectCard(props) {
                         </div>
                     </div>
                 ) : (
-                    <div 
-                        id="card" 
-                        className="mt-10 p-4 bg-black rounded-lg border-4 border-black shadow-[8px_8px_0px_grey] transition-transform transform-gpu hover:scale-105 duration-300 ease-in-out"
-                        onClick={handleClick}
-                    >
-                        <img src={imgs[title]} alt={title} className="h-96 lg:rounded animate-fadeIn" />
+                    <div className='flex flex-col justify-center items-center'>
+                        <div 
+                            id="card" 
+                            className="items-center w-5/6 mt-10 p-4 bg-black rounded-lg border-4 border-black shadow-[8px_8px_0px_grey] transition-transform transform-gpu hover:scale-105 duration-300 ease-in-out"
+                            onClick={handleClick}
+                        >
+                            <img src={imgs[title]} alt={title} className="h-96 lg:rounded animate-fadeIn" />
+                        </div>
                     </div>
                 )}
                 <div className="flex flex-row justify-center items-center">
