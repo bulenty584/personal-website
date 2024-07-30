@@ -46,12 +46,12 @@ function ProjectCard(props) {
                         </div>
                     </div>
                 )}
-                <div className="flex flex-row justify-center items-center">
-                    <p className="pt-10 mr-3 text-center lg:text-2xl md:text-2xl font-semibold text-warm_white">
+                <div className="flex flex-row justify-center items-center pt-5 pb-10">
+                    <p className=" mr-3 text-center lg:text-2xl md:text-2xl font-semibold text-warm_white">
                         {title}
                     </p>
                     {githubLink && (
-                        <a href={githubLink} target="_blank" rel="noopener noreferrer" className="pt-10">
+                        <a href={githubLink} target="_blank" rel="noopener noreferrer">
                             <FaGithub className="text-warm_white text-2xl" />
                         </a>
                     )}
