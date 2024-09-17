@@ -19,7 +19,7 @@ function ProjectCard(props) {
         "BruinRide": BruinRide,
         "PnetPhlix": PnetPhlix,
         "PeachParty": PeachParty,
-        "shufpy": shufpy
+        "Shufpy": shufpy
     };
 
     return (
