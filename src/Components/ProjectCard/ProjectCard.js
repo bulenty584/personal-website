@@ -3,6 +3,7 @@ import './ProjectCard.css';
 import BruinRide from '../../Assets/BruinRide.png';
 import PnetPhlix from '../../Assets/PnetPhlix.png';
 import PeachParty from '../../Assets/PeachParty.png';
+import shufpy from '../../Assets/shufpy.gif';
 import { FaGithub } from "react-icons/fa";
 
 function ProjectCard(props) {
@@ -17,47 +18,52 @@ function ProjectCard(props) {
     const imgs = {
         "BruinRide": BruinRide,
         "PnetPhlix": PnetPhlix,
-        "PeachParty": PeachParty
+        "PeachParty": PeachParty,
+        "shufpy": shufpy
     };
 
     return (
-        <div className="w-full flex flex-col items-center justify-center">
-            <div className="space-y-2 pb-8 pt-6 md:space-y-5">
+        <>
+            {clicked && <div className="backdrop" onClick={handleClick}></div>}
+            <div 
+                className={`project-card w-80 m-4 items-center justify-center ${clicked ? 'active' : ''}`}
+                onClick={handleClick}
+            >
                 {clicked ? (
-                    <div className="flex flex-col items-center justify-center">
+                    <div 
+                        id="card" 
+                        className="card-content p-4 bg-black rounded-lg border-4 border-black shadow-[8px_8px_0px_grey]"
+                    >
                         <div 
-                            id="card" 
-                            className="w-1/2 mt-10 p-4 bg-black rounded-lg border-4 border-black shadow-[8px_8px_0px_grey] transition-transform transform-gpu hover:scale-105 duration-300 ease-in-out"
-                            onClick={handleClick}
+                            className={`text-warm_white h-48 ${clicked ? 'animate-fadeIn' : ''} text-center lg:text-md md:text-1xl font-semibold`}
                         >
-                            <div className="text-warm_white h-96 animate-fadeIn text-center lg:text-3xl md:text-2xl font-semibold">
-                                {description}
-                            </div>
+                            {description}
                         </div>
                     </div>
                 ) : (
-                    <div className='flex flex-col justify-center items-center'>
-                        <div 
-                            id="card" 
-                            className="items-center w-5/6 mt-10 p-4 bg-black rounded-lg border-4 border-black shadow-[8px_8px_0px_grey] transition-transform transform-gpu hover:scale-105 duration-300 ease-in-out"
-                            onClick={handleClick}
-                        >
-                            <img src={imgs[title]} alt={title} className="h-96 lg:rounded animate-fadeIn" />
-                        </div>
+                    <div 
+                        id="card" 
+                        className="card-content p-4 bg-black rounded-lg border-4 border-black shadow-[8px_8px_0px_grey]"
+                    >
+                        <img 
+                            src={imgs[title]} 
+                            alt={title} 
+                            className="h-48 w-full object-cover lg:rounded" 
+                        />
                     </div>
                 )}
-                <div className="flex flex-row justify-center items-center">
-                    <p className="pt-10 pb-10 mr-3 text-center lg:text-2xl md:text-2xl font-semibold text-warm_white">
+                <div className="flex flex-row justify-center items-center mt-4">
+                    <p className="text-center lg:text-2xl md:text-2xl font-semibold text-warm_white">
                         {title}
                     </p>
                     {githubLink && (
-                        <a href={githubLink} target="_blank" rel="noopener noreferrer">
+                        <a href={githubLink} target="_blank" rel="noopener noreferrer" className="ml-3">
                             <FaGithub className="text-warm_white text-2xl" />
                         </a>
                     )}
                 </div>
             </div>
-        </div>
+        </>
     );
 }
 

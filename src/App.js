@@ -34,7 +34,7 @@ function App() {
         <div className="flex w-full sm:flex-row font-semibold tracking-tight sm:text-2xl sm:l1 text-warm_white pb-6" id="about">
           <div className="p-4 mx-auto w-1/4 min-w-[300px] bg-black rounded-lg border-4 border-black shadow-[8px_8px_0px_grey]" id="box1">
             <p className="text-warm_white">
-              I am a full stack engineer with 3 years of experience. I love
+              I am a Software Engineer with 3 years of experience. I love
               coding, working on new projects, and just learning more about tech!
             </p>
           </div>
