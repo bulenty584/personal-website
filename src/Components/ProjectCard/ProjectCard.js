@@ -35,7 +35,7 @@ function ProjectCard(props) {
                         className="card-content p-4 bg-black rounded-lg border-4 border-black shadow-[8px_8px_0px_grey]"
                     >
                         <div 
-                            className={`text-warm_white h-48 ${clicked ? 'animate-fadeIn' : ''} text-center lg:text-md md:text-1xl font-semibold`}
+                            className={`text-warm_white h-48 ${clicked ? 'fade-in' : ''} text-center lg:text-md md:text-1xl font-semibold`}
                         >
                             {description}
                         </div>
@@ -48,7 +48,7 @@ function ProjectCard(props) {
                         <img 
                             src={imgs[title]} 
                             alt={title} 
-                            className="h-48 w-full object-cover lg:rounded" 
+                            className={`h-48 w-full object-cover lg:rounded ${clicked ? 'fade-in' : ''}`} 
                         />
                     </div>
                 )}
