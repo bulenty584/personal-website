@@ -41,6 +41,19 @@ function Experience() {
                 I also developed phone number authentication for iOS using Swift and the ViewModel-Model (VMM) architecture and enhanced database efficiency, significantly reducing account retrieval time by 80%.
               </p>
             </div>
+            <div className="flex flex-col lg:flex-row lg:space-x-20 justify-center items-center">
+              <div className="mt-10 p-4 bg-black rounded-lg border-4 border-black shadow-[8px_8px_0px_grey] transition-transform transform-gpu hover:scale-106 transition-duration-300 w-1/2 md:w-1/2 lg:w-1/4">
+                <h2 className="pr-10 pl-10 mt-8 mb-8 text-center text-2xl font-bold text-warm_white">
+                  SWE Intern at Prudential Financial
+                </h2>
+                <p className="text-center text-lg text-gray-500 dark:text-gray-400 text-warm_white">
+                  June 2025 - August 2025
+                </p>
+              </div>
+              <p className="pr-10 pl-10 mt-10 text-center m-0 w-full sm:w-3/4 md:w-3/4 lg:w-1/2 text-lg text-gray-500 dark:text-gray-400 text-warm_white">
+              Here I worked on a Software Engineering Intern working on the Enterprise Architecture team under Security Architecture. I improved an innersource library in Python dealing with coarse-grained validation of JWTs specifically for the Client Credentials OAuth2.0 flow using PyJWT, as well as spearheaded development of a new library using the HashiCorp Vault Transforms Engine using Java and performed comprehensive Threat Models for new products like Github Agentic Copilot.
+              </p>
+            </div>
           </div>
         </div>
       </div>

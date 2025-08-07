@@ -32,7 +32,7 @@ function TopBar() {
                 </a>
                 <a
                   className="mr-10 cool-underline"
-                  href="/BYResume2025A.pdf"
+                  href="/BYResume2026.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
