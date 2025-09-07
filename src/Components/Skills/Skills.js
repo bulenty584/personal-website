@@ -30,6 +30,9 @@ function Skills() {
                     <div className="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "100%"}}> HTML + CSS </div>
                 </div>
                 <div className="mx-auto box-border w-3/4 bg-gray rounded-lg border-4 border-white">
+                    <div className="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "80%"}}> Java </div>
+                </div>
+                <div className="mx-auto box-border w-3/4 bg-gray rounded-lg border-4 border-white">
                     <div className="p-4 bg-black rounded-lg max-h-full text-warm_white font-semibold text-3xl" style={{width: "80%"}}> C </div>
                 </div>
                 <div className="mx-auto box-border w-3/4 bg-gray rounded-lg border-4 border-white">
