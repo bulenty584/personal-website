@@ -61,7 +61,7 @@ function TopBar() {
               Projects
             </a>
             <a
-              href="/BYResume2025.pdf"
+              href="/BYResume2026.pdf"
               className="px-4 py-2 text-lg cool-underline"
             >
               Resume

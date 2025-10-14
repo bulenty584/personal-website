@@ -37,7 +37,7 @@ function Experience() {
                 </p>
               </div>
               <p className="pr-10 pl-10 mt-10 text-center m-0 w-full sm:w-3/4 md:w-3/4 lg:w-1/2 text-lg text-gray-500 dark:text-gray-400 text-warm_white">
-              Here I worked as a full stack engineer, contributing both JavaScript and Python code to backend and frontend development. During this time, I developed a browser-based Python IDE utilizing the Pyodide library and Worker API, enabling efficient code execution and rendering plots for graphical Python libraries. By leveraging web workers and a custom prototyped Virtual DOM, I was able to render graphical images in a background thread and increase the application's speed by 200%.
+              Here I worked as a full stack engineer, contributing both JavaScript and Python code to backend and frontend development. During this time, I developed a browser-based Python IDE utilizing the Pyodide library and Worker API, enabling efficient code execution and rendering plots for graphical Python libraries. By leveraging web workers and a custom prototyped Virtual DOM, I was able to render graphical images in a background thread and increase the application's speed by ~50%.
               </p>
             </div>
             <div className="flex flex-col lg:flex-row lg:space-x-20 justify-center items-center">
