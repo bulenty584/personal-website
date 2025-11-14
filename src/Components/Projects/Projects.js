@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import AOS from 'aos';
 
-AOS.init();
+AOS.init({
+    once: true,
+});
 
 function Projects() {
     const [activeCard, setActiveCard] = useState(null);

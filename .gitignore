@@ -51,6 +51,10 @@ web_modules/
 
 # Optional npm cache directory
 .npm
+<<<<<<< HEAD
+=======
+.DS_Store
+>>>>>>> 8137899 (new migration to newer packages and more updated cra build)
 
 # Optional eslint cache
 .eslintcache
