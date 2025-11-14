@@ -4,7 +4,6 @@ import React from "react";
 import Experience from "./Components/Experience/Experience";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { SiDevpost } from "react-icons/si";
 import Skills from "./Components/Skills/Skills";
 import Projects  from "./Components/Projects/Projects";
 function App() {
